@@ -13,6 +13,7 @@ public class script1 extends Open_closeAppln{
 		HomePage hp=new HomePage(driver);
 		hp.clickClose();
 		hp.mainmenu(driver);
+		System.out.println("HI");
 	}
 
 }
